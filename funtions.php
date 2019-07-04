@@ -70,8 +70,6 @@ function more_fields($user){
     
 $store_settings        = dokan_get_store_info( $user->ID );
 
-$gst = new Shop_Gst_info();
-
 $shopgst        = isset( $store_settings['shop_gst'] ) ? $store_settings['shop_gst'] : '';
 $shoppan        = isset( $store_settings['shop_pan'] ) ? $store_settings['shop_pan'] : '';
 $shopfssai      = isset( $store_settings['shop_fssai'] ) ? $store_settings['shop_fssai'] : '';
